@@ -59,3 +59,37 @@ Matplotlib, Seaborn
 
 Jupyter Notebook
 
+
+
+Frequent Itemset Mining
+
+Association Rule Generation
+
+Support, Confidence, and Lift Metrics
+
+Key Highlights
+Created Basket Matrix from transactional data.
+
+Generated 19 Frequent Itemsets with Support ranging from 0.057 to 0.095.
+
+Discovered 4 Strong Association Rules with Lift > 1.
+
+Visualized Association Rules using Support vs Lift Plot.
+
+Developed initial Product Bundling Offers.
+
+Framework built for Personalized Recommendations.
+
+Proposed A/B Testing Strategy to measure revenue impact.
+
+Tools & Technologies Used
+Python
+
+Pandas, Numpy
+
+mlxtend (for Apriori & Association Rules)
+
+Matplotlib, Seaborn
+
+Jupyter Notebook
+

@@ -55,4 +55,3 @@ In the e-commerce sector, understanding customer purchase behavior is crucial to
 |Confidence Range|10.4% - 11.9%|
 |Lift Values|> 1 (Positive Association)|
 
-Example Rule:

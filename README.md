@@ -1,95 +1,58 @@
 # Product-Affinity-Analysis---E-Commerce-sector
 Discovering Customer Buying Patterns using Association Rule Mining
 
-This project focuses on analyzing customer transaction data from an e-commerce platform to uncover meaningful product associations and customer buying patterns using Association Rule Mining techniques.
+## Overview
+This project focuses on performing Product Affinity Analysis on customer transaction data from an e-commerce platform. Using the Apriori algorithm and Association Rule Mining, the project identifies frequently bought together products, product bundling opportunities, and provides personalized product recommendations.
 
-The key objective is to generate actionable insights like:
+---
 
-Product Bundling Opportunities
+## Objective
+- Uncover associations between products frequently purchased together.
+- Generate Association Rules based on Support, Confidence, and Lift.
+- Suggest Product Bundling Strategies.
+- Build a framework for Personalized Recommendations.
+- Explore potential revenue improvements through A/B Testing.
 
-Personalized Product Recommendations
+---
 
-Revenue Optimization Strategies
+## Problem Statement
+In the e-commerce sector, understanding customer purchase behavior is crucial to drive sales and improve customer experience. Product Affinity Analysis helps:
+- Increase Cross-Sell & Up-Sell opportunities.
+- Optimize Product Placement.
+- Design Effective Marketing Campaigns.
+- Drive Revenue Growth.
 
-Problem Statement
-In e-commerce, identifying which products are frequently purchased together can help businesses:
+---
 
-Design targeted product bundles
+## Tools & Technologies Used
+- Python
+- Pandas, Numpy
+- mlxtend (Apriori, Association Rules)
+- Matplotlib, Seaborn (Data Visualization)
+- Jupyter Notebook
 
-Improve cross-selling and up-selling
+---
 
-Personalize customer recommendations
+## Workflow
+1. Data Cleaning & Preparation  
+2. Creating Basket Matrix (Customer vs Product Matrix)  
+3. Generating Frequent Itemsets using Apriori Algorithm  
+4. Creating Association Rules based on:  
+   - Support  
+   - Confidence  
+   - Lift  
+5. Visualizing Association Rules (Support vs Lift Plot)  
+6. Deriving Product Bundling & Recommendations  
+7. Preparing for A/B Testing  
 
-Increase revenue and customer satisfaction
+---
 
-Project Objective
-Perform Product Affinity Analysis using:
+## Key Findings
+| Metric | Result |
+|--------|--------|
+|Frequent Itemsets Identified|19|
+|Strong Association Rules|4|
+|Confidence Range|10.4% - 11.9%|
+|Lift Values|> 1 (Positive Association)|
 
-Apriori Algorithm
-
-Frequent Itemset Mining
-
-Association Rule Generation
-
-Support, Confidence, and Lift Metrics
-
-Key Highlights
-Created Basket Matrix from transactional data.
-
-Generated 19 Frequent Itemsets with Support ranging from 0.057 to 0.095.
-
-Discovered 4 Strong Association Rules with Lift > 1.
-
-Visualized Association Rules using Support vs Lift Plot.
-
-Developed initial Product Bundling Offers.
-
-Framework built for Personalized Recommendations.
-
-Proposed A/B Testing Strategy to measure revenue impact.
-
-Tools & Technologies Used
-Python
-
-Pandas, Numpy
-
-mlxtend (for Apriori & Association Rules)
-
-Matplotlib, Seaborn
-
-Jupyter Notebook
-
-
-
-Frequent Itemset Mining
-
-Association Rule Generation
-
-Support, Confidence, and Lift Metrics
-
-Key Highlights
-Created Basket Matrix from transactional data.
-
-Generated 19 Frequent Itemsets with Support ranging from 0.057 to 0.095.
-
-Discovered 4 Strong Association Rules with Lift > 1.
-
-Visualized Association Rules using Support vs Lift Plot.
-
-Developed initial Product Bundling Offers.
-
-Framework built for Personalized Recommendations.
-
-Proposed A/B Testing Strategy to measure revenue impact.
-
-Tools & Technologies Used
-Python
-
-Pandas, Numpy
-
-mlxtend (for Apriori & Association Rules)
-
-Matplotlib, Seaborn
-
-Jupyter Notebook
-
+Example Rule:
